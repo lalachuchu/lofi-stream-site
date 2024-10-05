@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lofi Music Stream Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lofi Music Streaming Dashboard</h1>
+  <div class="upload-section">
+    <h2>Upload Audio</h2>
+    <input type="file" id="audioUpload" accept="audio/*">
+  </div>
+  <div class="upload-section">
+    <h2>Upload Background Image</h2>
+    <input type="file" id="imageUpload" accept="image/*">
+  </div>
+  <div class="control-section">
+    <button id="startStream">Start Stream</button>
+    <button id="stopStream">Stop Stream</button>
+  </div>
+  <div id="status">
+    <h3>Live Stream Status: <span id="liveStatus">Offline</span></h3>
+  </div>
+</body>
+</html>
